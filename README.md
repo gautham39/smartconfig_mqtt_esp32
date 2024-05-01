@@ -13,15 +13,15 @@ This project demonstrates how to initialize Wi-Fi in station mode on an ESP32, s
 ###Usage
 This project demonstrates how to establish MQTT communication with an ESP32 and control an LED through MQTT messages and also fota update the esp32 using json command. Here's how to use it:
 
-Connect the ESP32 to your computer for programming and monitoring.
-After flashing, the ESP32 will initialize Wi-Fi and  connect to wifi with ESP-TOUCH APP  by entering 
-your wi-fi credentails and start MQTT communication.
-The MQTT client connects to a broker (e.g., mqtt://test.mosquitto.org:1883).
-Use an MQTT client (like MQTT Explorer or Mosquitto) to publish messages to the topic esp32/led/control.
-Send "on" or "off" to control the LED state on GPIO pin 2.
-The ESP32 publishes the LED status to /esp/led_status.
-To reset Wi-Fi configuration with SmartConfig, send "smartconfig" to esp32/led/control
-to update send the json object as "update":"url"
+-Connect the ESP32 to your computer for programming and monitoring.
+-After flashing, the ESP32 will initialize Wi-Fi and  connect to wifi with ESP-TOUCH APP  by entering 
+-your wi-fi credentails and start MQTT communication.
+-The MQTT client connects to a broker (e.g., mqtt://test.mosquitto.org:1883).
+-Use an MQTT client (like MQTT Explorer or Mosquitto) to publish messages to the topic esp32/led/control.
+-Send "on" or "off" to control the LED state on GPIO pin 2.
+-The ESP32 publishes the LED status to /esp/led_status.
+-To reset Wi-Fi configuration with SmartConfig, send "smartconfig" to esp32/led/control
+-to update send the json object as {"update":"url"}
 
 
 Contributing
