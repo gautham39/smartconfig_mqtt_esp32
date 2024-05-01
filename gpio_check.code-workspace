@@ -1,0 +1,17 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		},
+		{
+			"path": "B:/espressif_idf/mqtt_with_smartconfig_led"
+		}
+	],
+	"settings": {
+		"files.associations": {
+			"uart.h": "c",
+			"task.h": "c",
+			"nvs_flash.h": "c"
+		}
+	}
+}
